@@ -1,0 +1,120 @@
+{
+  "passages": [
+    {
+      "text": "You meet a stranger.\n[[Say Hi]]\n[[Say Bye]]",
+      "links": [
+        {
+          "name": "Say Hi",
+          "link": "Say Hi",
+          "pid": "2"
+        },
+        {
+          "name": "Say Bye",
+          "link": "Say Bye",
+          "pid": "3"
+        }
+      ],
+      "name": "Restart",
+      "pid": "1",
+      "position": {
+        "x": "98",
+        "y": "27"
+      }
+    },
+    {
+      "text": "The stranger says hi back. The stranger is a bit creepy.\n[[Walk backwards]]\n[[Desist]]",
+      "links": [
+        {
+          "name": "Walk backwards",
+          "link": "Walk backwards",
+          "pid": "4"
+        },
+        {
+          "name": "Desist",
+          "link": "Desist",
+          "pid": "5"
+        }
+      ],
+      "name": "Say Hi",
+      "pid": "2",
+      "position": {
+        "x": "421",
+        "y": "31"
+      }
+    },
+    {
+      "text": "The stranger says bye in return. You are safe.\n[[The End]]",
+      "links": [
+        {
+          "name": "The End",
+          "link": "The End",
+          "pid": "6"
+        }
+      ],
+      "name": "Say Bye",
+      "pid": "3",
+      "position": {
+        "x": "30",
+        "y": "296"
+      }
+    },
+    {
+      "text": "The stranger moves towards you.\n[[Walk backwards]]\n[[Desist]]",
+      "links": [
+        {
+          "name": "Walk backwards",
+          "link": "Walk backwards",
+          "pid": "4"
+        },
+        {
+          "name": "Desist",
+          "link": "Desist",
+          "pid": "5"
+        }
+      ],
+      "name": "Walk backwards",
+      "pid": "4",
+      "position": {
+        "x": "388",
+        "y": "261"
+      }
+    },
+    {
+      "text": "The stranger devours you.\n[[The End]]",
+      "links": [
+        {
+          "name": "The End",
+          "link": "The End",
+          "pid": "6"
+        }
+      ],
+      "name": "Desist",
+      "pid": "5",
+      "position": {
+        "x": "632",
+        "y": "199"
+      }
+    },
+    {
+      "text": "Game Over!\n[[Restart]]",
+      "links": [
+        {
+          "name": "Restart",
+          "link": "Restart",
+          "pid": "1"
+        }
+      ],
+      "name": "The End",
+      "pid": "6",
+      "position": {
+        "x": "219",
+        "y": "291"
+      }
+    }
+  ],
+  "name": "Story Example",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.0.11",
+  "ifid": "3292B0F5-9ABE-405D-B0D1-493507732888"
+}
