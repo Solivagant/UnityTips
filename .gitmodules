@@ -1,0 +1,3 @@
+[submodule "twine"]
+	path = twine
+	url = git@github.com:Solivagant/twinity.git
