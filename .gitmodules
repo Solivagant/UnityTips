@@ -1,3 +1,3 @@
-[submodule "dialogue"]
-	path = dialogue
-	url = git@github.com:Solivagant/twinity.git
+[submodule "twine"]
+	path = twine
+	url = https://github.com/Solivagant/twinity
